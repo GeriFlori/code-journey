@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио - CarWing</title>
+    <link rel="stylesheet" href="stylecarwing.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="initial-part">
+      <img
+        class="logo"
+        src="d4e82e90d5e6c61929e83d2d428c2659.jpg"
+        alt="Лого на кола"
+      />
+      <nav class="navbar">
+        <ul class="nav-items">
+          <li><a href="#hero">Мисия</a></li>
+          <li><a href="#how-it-works">Как работи</a></li>
+          <li><a href="#contact-form">Въпроси</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="intro">
+      <div class="left-side">
+        <h1 class="headline">CarWing - Визията на пътя е наша мисия</h1>
+        <p class="subtext">
+          В CarWing предлагаме висококачествено боядисване на автомобили, което
+          връща оригиналния блясък или придава напълно нова визия на вашия
+          автомобил. Работим с водещи бои и материали, за да гарантираме
+          дълготраен резултат и безупречна повърхност. Независимо дали става
+          въпрос за частично възстановяване, пълно пребоядисване или
+          персонализиран дизайн – нашият екип от опитни специалисти ще се
+          погрижи всяка кола да изглежда като нова.
+        </p>
+        <div class="button-group">
+          <button>Услуги</button>
+          <button>Галерия</button>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <img
+          class="common-img"
+          src="IMG_20250505_103959.jpg"
+          alt="Галерия от снимки"
+        />
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="how-it-works">
+        <h2>За нас:</h2>
+        <ul>
+          <li>
+            <ion-icon  class="icons" name="checkmark-circle-outline"></ion-icon>Лицензиран
+            сервиз
+          </li>
+          <li>
+            <ion-icon  class="icons" name="checkmark-circle-outline"></ion-icon>Професионализъм
+          </li>
+          <li>
+            <ion-icon  class="icons" name="checkmark-circle-outline"></ion-icon>Индивидуален
+            подход
+          </li>
+        </ul>
+      </div>
+
+      <div class="services" >
+        <h2>Услуги</h2>
+        <ul>
+          <li>
+            <ion-icon class="icons" name="checkmark-circle-outline"></ion-icon>Пълно
+            боядисване на автомобила - Реставрация на боята
+          </li>
+          <li>
+            <ion-icon  class="icons" name="checkmark-circle-outline"></ion-icon>Локализирано
+            боядисване и поправка на драскотини и увреждания
+          </li>
+          <li>
+            <ion-icon  class="icons" name="checkmark-circle-outline"></ion-icon>
+            Антикорозионна защита и боядисване на долната част на автомобила
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="devider" />
+    <h3 class="contact-title">Свържи се с нас :</h3>
+    <section id="contact">
+      <div class="contact-container">
+        <!-- <h3 class="contact-title">Свържи се с нас</h3> -->
+
+        <form action="#" method="post">
+          <div class="contact-card">
+            <div class="contact-form">
+              <div class="person">
+                <label class="data" for="name">Име:</label>
+                <input class="fill" type="text" placeholder="Вашето име" id="name" name="name" required />
+  
+                <label class="data" for="email">Имейл:</label>
+                <input
+                  class="fill"
+                  type="email"
+                  placeholder=" Имейл"
+                  id="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="details-person">
+                <label class="data" for="phone">Телефон:</label>
+                <input class="fill" type="tel" placeholder="+359 888 888 888" id="phone" name="phone" />
+  
+                <label class="data" for="message">Съобщение:</label>
+                <textarea
+                  class="fill"
+                  
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <button class="submit-btn button-group" type="submit">Изпрати</button> 
+              </div>
+            </div>
+          <div class="contact-img">
+            <img src="premium_photo-1682142476249-a9a5a3fd840d.avif" alt="Човек боядисва кола">
+          </div>
+          </div>
+         <!-- <button class="submit-btn" type="submit">Изпрати</button>  -->
+      </div>
+      <!-- <img src="d4e82e90d5e6c61929e83d2d428c2659.jpg" alt=""> -->
+    </section>
+  </body>
+</html>
